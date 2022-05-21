@@ -1,0 +1,92 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+.go-back {
+    text-decoration: none;
+    font-size: .8rem;
+    color: grey;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.container2 input {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(183, 181, 181);
+    font-size: .9rem;
+    margin: 5px auto 5px auto;
+    background-color: transparent;
+}
+
+.container2 h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    color: #0f52ba;
+    
+}
+
+.container2 #btn2 {
+    margin: 20px auto;
+    height: 50px;
+    background-color: #0f52ba;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.cross-btn2 {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px 0;
+    font-size: .8rem;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    position: relative;
+    left: 5rem;
+    top: -2rem;
+    text-decoration: none;
+}
+
+.cross-btn2:hover {
+    height: 28px;
+    width: 28px;
+    padding-top: 4px;
+    transition: 0.1s;
+}
+
+#email2 {
+    padding: 13px 10px;
+    width: 20rem;
+}
+#password2 {
+    padding: 13px 10px;
+    width: 20rem;
+}
+
+
+#email2:focus {
+    padding: 20px 10px;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+#password2:focus {
+    padding: 20px 10px;
+    border: 1px solid rgb(94, 94, 94);
+}

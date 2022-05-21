@@ -1,0 +1,28 @@
+.createBlog {
+    height: 100px;
+    display: block;
+    width: 150px;
+    margin: 1.5rem auto 2rem auto;
+}
+
+.createBlog button {
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(183, 181, 181);
+    font-size: 1.2rem;
+    border-radius: 4px;
+    background-color: transparent;
+    font-weight: 700;
+    color: #0f52ba;
+    box-shadow: 6px 10px 5px rgb(233, 233, 233);
+    
+}
+
+.createBlog button:hover {
+    cursor: pointer;
+}
+
+.createBlog button:focus {
+    box-shadow: none;
+}
+

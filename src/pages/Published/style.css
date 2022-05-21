@@ -1,0 +1,46 @@
+.publish-wrap img{
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+    padding: 0.5rem;
+    margin:12px;
+}
+
+.publish-img {
+    height: 140px;
+    width : 140px;
+    border: .5rem solid rgb(13, 180, 55);
+    border-radius: 50%;
+    transition: 0.4s;
+    display: flex;
+    margin: 50px auto;
+}
+
+.publish-wrap h1{
+    margin: 0px auto;
+    opacity: 1;
+    animation: move3 0.8s 3;
+}
+
+@keyframes move3 {
+    to {
+        opacity: 0;
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.blog-goBack {
+    text-decoration: none;
+    font-size: .8rem;
+    color: grey;
+    font-weight: 600;
+    margin: 0.5rem 4rem;
+    display: block;
+}
+
+.blog-goBack:hover {
+    color: black;
+    font-size: 1rem;
+}

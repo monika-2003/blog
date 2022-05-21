@@ -1,0 +1,28 @@
+.log-in {
+    height: 2.4rem;
+    width: 5rem;
+    background-color: transparent;
+    border: 1px solid rgb(183, 181, 181);
+    font-size: .9rem;
+    font-weight: 600;
+    color: #0f52ba;
+    border-radius: 4px;
+    outline: none;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+.log-in:hover {
+    background-color: #0f52ba;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .log-in {
+        height: 2rem;
+        width: 3.9rem;
+        font-size: .8rem;
+        margin: 0 0.5rem;
+    }
+}

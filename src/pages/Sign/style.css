@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+.go-back {
+    text-decoration: none;
+    font-size: .8rem;
+    color: grey;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.btn {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.container input {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(183, 181, 181);
+    font-size: .9rem;
+    margin: 5px auto 5px auto;
+    background-color: transparent;
+}
+
+.container h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0f52ba;
+}
+
+.container #btn {
+    margin: 20px auto;
+    height: 50px;
+    background-color: #0f52ba;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.cross-btn {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px 0;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.cross-btn:hover {
+    height: 35px;
+    width: 35px;
+    font-size: 1.3rem;
+    padding-top: 4px;
+    transition: 0.1s;
+}
+
+#name {
+    padding: 13px 10px;
+    width: 20rem;
+}
+#email {
+    padding: 13px 10px;
+    width: 20rem;
+}
+#password {
+    padding: 13px 10px;
+    width: 20rem;
+}
+
+#name:focus {
+    padding: 20px 10px;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+#email:focus {
+    padding: 20px 10px;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+#password:focus {
+    padding: 20px 10px;
+    border: 1px solid rgb(94, 94, 94);
+}

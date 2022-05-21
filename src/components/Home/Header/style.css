@@ -1,0 +1,47 @@
+.home-header {
+    text-align: center;
+}
+
+.buttons {
+    display:flex;
+    width:14rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.home-header h2 {
+    color: #0f52ba;
+    font-size: 3rem;
+    margin: 50px 0;
+}
+
+.home-header p {
+    color: #a9a9a9;
+    font-weight: 500;
+}
+
+#icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+}
+
+@media only screen and (max-width: 1100px) {
+    .home-header h2 {
+        font-size: 2rem;
+        margin: 80px 0;
+    }
+
+    #icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .buttons {
+        width: 9rem;
+    }
+    
+  }
